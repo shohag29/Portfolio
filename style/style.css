@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* NavBar & Display Here */
@@ -23,22 +23,12 @@
     padding-top: 10px;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
 span {
-    color: tomato;
-}
-
-.menu {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
     color: tomato;
 }
 
@@ -49,7 +39,7 @@ a:hover {
 }
 
 .displaySection h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .displaySection h2 {
@@ -325,14 +315,6 @@ input {
         width: 100%;
         height: 100%;
         padding-bottom: 100px;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .menu {
-        display: none;
     }
 
     .displaySection {
