@@ -14,7 +14,6 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
-    padding: 0px 120px;
 }
 
 .header {
@@ -22,10 +21,6 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-}
-
-.logo {
-    color: white;
 }
 
 span {
@@ -49,7 +44,7 @@ a:hover {
 
 .displaySection {
     color: white;
-    padding-top: 200px;
+    padding: 200px 120px 0px 120px;
     width: 50%;
 }
 
@@ -59,31 +54,31 @@ a:hover {
 
 .displaySection h2 {
     color: tomato;
-    padding: 10px 0px;
+    padding: 6px 0px;
 }
 
 .displaySection p {
     text-transform: capitalize;
 }
 
-.btn {
+.displayBtn {
     padding: 8px 40px;
     background: tomato;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.btn:hover {
+.displayBtn:hover {
     padding: 8px 40px;
     background: white;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     color: tomato;
-    margin-top: 30px;
+    margin-top: 10px;
     box-shadow: 0px 0px 8px tomato;
 }
 
@@ -500,7 +495,7 @@ input {
         background-color: rgb(33, 29, 29);
         color: white;
         text-align: center;
-        padding: 50px 20px 0px 20px;
+        padding: 50px 20px 0px 20pxcl;
     }
 
     .first {

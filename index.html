@@ -15,34 +15,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
 
 <body>
     <!-- NavBar & Display Here  -->
     <header id="home">
-        <div class="header">
-            <div class="logo">
-                <h1>SHO<span>HAG</span></h1>
+        <nav class="navbar navbar-expand-lg text-center">
+            <div class="container">
+                <h1 class="navbar-brand fw-bold text-light">SHO<span>HAG</span></h1>
+                <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-4 text-center">
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light" href="#packages">About </a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light" href="#">Services</a>
+                        </li>
+                        <li class="nav-item text-light bg-sm-danger rounded">
+                            <a class="nav-link text-light" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item text-light">
+                            <a class="nav-link text-light" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <nav class="navbar">
-                <ul class="menu">
-                    <li class="menuList">
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="menuList">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="menuList">
-                        <a href="#services">Services</a>
-                    </li>
-                    <li class="menuList">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li class="menuList">
-                        <a href="#">Login</a>
-                    </li>
-                </ul>
-            </nav>
+        </nav>
         </div>
         <div class="displaySection">
             <h1>Hello,</h1>
@@ -50,7 +57,7 @@
             <p>I'm web Devoloper & Designer. I will make your projects beautiful and attractive . you can find
                 me on
                 github.</p>
-            <button class="btn">Hire Me</button>
+            <button class="displayBtn">Hire Me</button>
         </div>
     </header>
     <!-- NavBar & Display Close  -->
@@ -73,7 +80,7 @@
                     have
                     very good experience in online work. I am skilled in graphic design and web development.
                 </p>
-                <button class="btn">About Me</button>
+                <button class="displayBtn">About Me</button>
             </div>
         </div>
     </section>
@@ -203,6 +210,9 @@
 
     </footer>
     <!-- Footer Section Close  -->
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
